@@ -22,9 +22,9 @@ pipeline {
                 echo 'Hello deploy'
             }
         }
-        stage('finish') {
+        stage('finished') {
             steps {
-                echo 'Hello finish'
+                echo 'Hello finished'
             }
         }
     }
